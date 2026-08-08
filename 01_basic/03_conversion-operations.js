@@ -60,4 +60,33 @@ console.log(typeof(ischeck))
 //***number to string */
 let e =122
 let isString=String(e)
-console
+console.log(typeof(isString))
+console.log(isString)
+// output
+// string
+// 122
+
+
+////////////********Operation******** */
+
+
+//javascript string ne bov important ape che 
+
+
+
+// (+,-,*,/,%)
+console.log(1+"2"+1)
+console.log("2"+1+4)
+console.log(1+"2")
+console.log(1+2+"3")// pela string nathi aetle right thi start kari to pela number values che to add thase pachi string ma convert thases 
+console.log(2*3/4%4)
+console.log(+true); // increment operator lagavo aetle + ae number count thase so it will automatiaclly convert boolean into number 
+
+//Postfix prefix
+let number1 = 100
+number1++
+++number1
+console.log(number1);
+
+
+
